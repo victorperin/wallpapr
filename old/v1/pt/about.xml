@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<div id="aboutcontent">
+	<h2>F.A.Q.</h2>
+	<div class="secondarytext">
+		<h3>O que é o <strong>Wallpapr</strong>?</h3>
+		<p><strong>Wallpapr</strong> é um <em>sistema de busca de papéis de parede legais baseado em palavras-chave</em>. É super simples de usar, clique em no botão "20" e você vai ver a mágica acontecer. Se quiser, escreva uma palavra-chave no campo de texto e a busca será mais específica.</p>
+		<p>Não vai mudar sua vida ou pagar suas contas, fiz apenas para aprender mais sobre PHP, AJAX, API, WTF, ALCA e <a href="http://www.pfccheatsheet.com/fnemot99.htm">outros acrônimos e abreviações de nerd</a>.</p>
+		<h3>De onde vem tanta imagem?</h3>
+		<p>As imagens vêm de <a href="http://www.flickr.com/search/groups/?q=wallpapers"><strong>varios grupos de papéis de parede</strong> do Flickr</a> escolhidos aleatoriamente.</p>
+		<h3>E a licença de uso das imagens?</h3>
+		<p>Cuide de si próprio, verifique a licença antes de usar a imagem.</p>
+		<h3>Como eu pronuncio &quot;<strong>YHWH</strong>&quot;?</h3>
+		<p><strong>&quot;TSHÃK-NÓRRIS&quot;</strong></p>
+		<h3>O que você usou pra fazer trazer esta aplicação para o mundo dos vivos?</h3>
+		<ul>
+			<li><a href="https://gettingreal.37signals.com/">Getting Real</a></li>
+			<li><a href="http://www.ubuntu.com/">Ubuntu Linux</a></li>
+			<li><a href="http://quanta.kdewebdev.org/">Quanta Plus</a></li>
+			<li><a href="http://bluefish.openoffice.nl/index.html">Bluefish Editor</a></li>
+			<li><a href="http://prototype.conio.net/">Prototype.js</a></li>
+			<li><a href="http://script.aculo.us/">Script.aculo.us</a></li>
+			<li><a href="http://www.phpflickr.com/">phpFlickr</a></li>
+			<li><a href="http://www.spiffycorners.com">Spiffy Corners</a></li>
+			<li><a href="http://msig.info/web2.php">Web2.0V2Logo Creatr</a></li>
+			<li><a href="http://amarok.kde.org/">Amarok</a></li>
+		</ul>
+		<h3>E quem ajudou?</h3>
+		<ul>
+			<li>Meu <a href="http://desciclo.pedia.ws/wiki/Deus">Deus</a> me deu uma noite de <em>insônia produtiva</em>.</li>
+			<li><em>Spectrum</em> transformou os &amp; em &amp;amp;</li>
+			<li>Meus pais transformaram duas células incompletas em um homem quase completo.</li>
+			<li>Todos os meus <strong>amigos conselheiros sobre a Vida, o Universo e Tudo Mais</strong>, como o <a href="http://www.marceloeduardo.com"><em>Marcelo Eduardo</em></a>, <a href="http://www.nandico.com.br/"><em>Nandico</em></a> e <a href="http://ae.portyfolio.com/blog/"><em>Padre André</em></a>, que me ajudaram a ser um homem e um profissional mais completo com longas conversas por mensagens instantâneas.</li>
+			<li><em>Alk</em> e <em>Fabrício Poloka A.K.A. Art</em> são os melhores amigos e beta-testers que existem.</li>
+			<li><em>Leandro Ferreira</em> percebeu o <em>&quot;p&quot; sem perna</em> na logo.</li>
+			<li><a href="http://ricardoaugusto.net/"><em>Ricardo Augusto</em></a> sabe mais que eu sobre script.aculo.us, prototype.js e outros <em>modismos de codificação</em>.</li>
+			<li><a href="http://www.caiocesar.cc/blog/?p=8194024"><em>Caio César</em></a>, <a href="http://sergioflima.pro.br/blog/blogs/index.php/sergio_blog/2006/10/16/papel_de_parede_direto_da_web_2_0"><em>Sergio F Lima</em></a> e todos que citaram esta aplicação em seus blogs e e-mails.</li>
+			<li>O povo do <a href="http://www.43folders.com">43 Folders</a> com suas <a href="http://www.43folders.com/2004/09/08/getting-started-with-getting-things-done/">lições</a> sobre <a href="http://www.davidco.com/what_is_gtd.php">A Arte de Fazer Acontecer</a>.</li>
+			<li><a href="http://blog.joesgoals.com/2006/10/17/wallpapr-a-flickr-wallpaper-finder/">Ian Smith</a>, do <a href="http://www.joesgoals.com/">Joe Goals</a> me ajuda a <a href="http://www.joesgoals.com/">executar tarefas recorrentes</a>.</li>
+		</ul>
+		<h3>Qual a resposta para a Vida, O Universo e Tudo Mais?</h3>
+		<p>Quarenta e dois.</p>
+		<h3>E o bambu?</h3>
+		<p><em>[...]</em></p>
+	</div>
+</div>

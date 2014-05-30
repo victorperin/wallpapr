@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="author" content="Marco Gomes"/>
+<meta name="description" content="A cool wallpapers search on Flickr Groups"/>
+<meta name="keywords" content="wallpaper, search, flickr, ajax, group"/>
+<script type="text/javascript">
+//<![CDATA[
+try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok9v=abba2f56bd/"},atok:"a7318824665457e08006d6e4621e6e6c",petok:"b2082c054662be47392f7efaaa38c4aa10f8d7bb-1401477148-1800",zone:"marcogomes.com",rocket:"0",apps:{"ga_key":{"ua":"UA-2191265-1","ga_bs":"2"}}}];!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok9v=97fb4d042e/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
+//]]>
+</script>
+<link rel="stylesheet" type="text/css" href="css/style.css?v=0.2"/>
+<script type="text/javascript" src="jslibs/jquery.js?r=2"></script>
+<script type="text/javascript" src="jslibs/jquery.dimensions.js?r=2"></script>
+<script type="text/javascript" src="jslibs/jquery.center.js?r=2"></script>
+<script type="text/javascript" src="jslibs/jquery.easing.js?r=2"></script>
+<script type="text/javascript" src="js/wallpapr.js?r=2.4"></script>
+<title>Wallpapr &ndash; A cool wallpapers search on Flickr Groups</title>
+<script type="text/javascript">
+/* <![CDATA[ */
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-2191265-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+(function(b){(function(a){"__CF"in b&&"DJS"in b.__CF?b.__CF.DJS.push(a):"addEventListener"in b?b.addEventListener("load",a,!1):b.attachEvent("onload",a)})(function(){"FB"in b&&"Event"in FB&&"subscribe"in FB.Event&&(FB.Event.subscribe("edge.create",function(a){_gaq.push(["_trackSocial","facebook","like",a])}),FB.Event.subscribe("edge.remove",function(a){_gaq.push(["_trackSocial","facebook","unlike",a])}),FB.Event.subscribe("message.send",function(a){_gaq.push(["_trackSocial","facebook","send",a])}));"twttr"in b&&"events"in twttr&&"bind"in twttr.events&&twttr.events.bind("tweet",function(a){if(a){var b;if(a.target&&a.target.nodeName=="IFRAME")a:{if(a=a.target.src){a=a.split("#")[0].match(/[^?=&]+=([^&]*)?/g);b=0;for(var c;c=a[b];++b)if(c.indexOf("url")===0){b=unescape(c.split("=")[1]);break a}}b=void 0}_gaq.push(["_trackSocial","twitter","tweet",b])}})})})(window);
+/* ]]> */
+</script>
+</head>
+<body id="start" class="en"><script type="text/javascript">//<![CDATA[try{(function(a){var b="http://",c="marcogomes.com",d="/cdn-cgi/cl/",e="img.gif",f=new a;f.src=[b,c,d,e].join("")})(Image)}catch(e){}//]]></script>
+<div id="container">
+<div id="primary">
+<div id="header">
+<h1><a href="http://marcogomes.com/wallpapr"><img src="img/wallpapr.png" alt="Wallpapr logo"/></a></h1>
+</div> <div id="loading-app"><img src="img/ajaxLoadingBlue.gif" alt="Loading Application"/></div>
+<div id="input">
+<div>
+<label for="tag">search term</label>
+<input type="text" class="text" id="tag" value="tag"/>
+</div>
+<p>How many <strong>cool wallpapers <span id="showtag"></span></strong>do you want?</p>
+<ul>
+ 
+<li><button type="button" id="get20" value="20">20</button></li>
+<li><button type="button" id="get40" value="40">40</button></li>
+<li><button type="button" id="get100" value="100">100</button></li>
+</ul>
+</div>
+<div id="output">
+<div id="iphone">
+<strong>NEW: <a href="iphone/index.html" target="_self">iPhone version</a></strong>
+</div>
+</div>
+<div id="debug">
+</div>
+</div>
+<div id="secondary">
+<div id="menu">
+<strong>NEW: <a href="iphone/index.html" target="_self">iPhone and iPod Touch version</a></strong> <a href="en/about.html">About (<acronym title="Frenquntly Asqued Questions">F.A.Q.</acronym>)</a>
+</div>
+<div id="footer">
+<div id="lista2.0br">Rate this application at <a href="http://lista2.0br.com.br/">Lista 2.0 BR</a>.</div>
+<p>Made in <a href="http://en.wikipedia.org/wiki/Brazil">Brazil</a> by <a rel="author" href="http://marcogomes.com/">Marco Gomes</a> (<strong>eu <em>at</em> marcogomes <em>dot</em> com</strong>), with <a href="http://pomoti.com/">Dirceu</a> help on optimization.</p>
+<p class="licence">Released under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/br/deed.en">Creative Attribution-Noncommercial-Share Alike 2.5 Brazil</a>.</p>
+<noscript><p>Você vai precisar de JavaScript para utilizar este site.</p></noscript></p>
+</div>
+</div>
+</div>
+<script type="text/javascript">/* CloudFlare analytics upgrade */
+window._gat=window._gat||{_getTracker:function(){return {_trackPageview:function(){}}}};
+		</script>
+<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-2191265-4");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+		</script>
+</body>
+</html>
