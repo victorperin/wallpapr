@@ -161,7 +161,7 @@ this.onLoadSearchResult = function(data)
 function modPhotoObj( photo )
 {
 	// URIs to various dimensions of this photo
-	var baseString = 'http://static.flickr.com/'
+	var baseString = 'https://static.flickr.com/'
 							+ photo.server
 							+ '/'
 							+ photo.id
@@ -178,9 +178,9 @@ function modPhotoObj( photo )
 	// if the big photo is private, get the original photopage link
 	// mod by @fzuardi <http://idomyownstunts.blogspot.com/>
 	if (photo.originalsecret) {
-    	photo.url = 'http://flickr.com/photo_zoom.gne?id=' + photo.id + '&size=o';
+    	photo.url = 'https://flickr.com/photo_zoom.gne?id=' + photo.id + '&size=o';
 	} else {
-    	photo.url = 'http://flickr.com/photos/' + photo.owner + '/' + photo.id;
+    	photo.url = 'https://flickr.com/photos/' + photo.owner + '/' + photo.id;
 	}
 	
 	return (photo);
