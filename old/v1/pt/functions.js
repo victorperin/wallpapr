@@ -225,7 +225,7 @@ function createPhotoObj( photoNode )
 	photoObj.title  = photoNode.getAttribute( 'title' );
 	// caminhos para versões da foto em várias dimensões
 	photoObj.url = new Function();
-	photoObj.url.baseString = 'http://static.flickr.com/'
+	photoObj.url.baseString = 'https://static.flickr.com/'
 							+ photoObj.server
 							+ '/'
 							+ photoObj.id
@@ -235,7 +235,7 @@ function createPhotoObj( photoNode )
 	photoObj.url.thumb =  photoObj.url.baseString + '_t.jpg';
 	photoObj.url.square =  photoObj.url.baseString + '_s.jpg';
 	// file ex: url: http://static.flickr.com/112/257332642_6d8d16d42c_m.jpg
-	photoObj.url.view = 'http://flickr.com/photo_zoom.gne?id='
+	photoObj.url.view = 'https://flickr.com/photo_zoom.gne?id='
 	                    + photoObj.id
 	                    + '&size=o';
 	// link ex: http://flickr.com/photo_zoom.gne?id=267591518&size=o
