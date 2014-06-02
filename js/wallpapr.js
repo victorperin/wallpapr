@@ -321,7 +321,7 @@ function showLoading(callback)
 	}
 	// put 'loading' animation on screen
 	$('#output').html(
-		$('<img id="loading-anim" src="../img/ajaxLoadingPink.gif"/>').hide().fadeIn('slow')
+		$('<img id="loading-anim" src="img/ajaxLoadingPink.gif"/>').hide().fadeIn('slow')
 	);
 }
 
