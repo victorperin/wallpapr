@@ -11,7 +11,7 @@
 $(window).bind('load',function(){
 // Use the native jQuery JSONP to get data directly from Flickr
 // ANIMAL! I really love jQuery and all its dev team
-var webserviceURI = 'http://www.flickr.com/services/rest/?'
+var webserviceURI = 'https://www.flickr.com/services/rest/?'
                      + '&format=json'
                      + '&api_key=eb46f4e8ff564a8e657288b1e56da80e';
 var aboutURI    = 'about.html';
