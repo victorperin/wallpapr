@@ -36,7 +36,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <div id="container">
 <div id="header">
 <h1><a href="http://marcogomes.com/wallpapr">Wallpapr</a></h1>
-<p id="slogan">A cool wallpaper search with <a href="http://www.flickr.com/services/api/"><strong>Flickr API</strong></a></p>
+<p id="slogan">A cool wallpaper search with <a href="https://www.flickr.com/services/api/"><strong>Flickr API</strong></a></p>
 <a id="portuguese" href="pt/index.php" title="Ver esta aplicação em português"><img src="br.png" alt="Bandeira do Brasil"/></a>
 </div>
 <div id="ads" style="display:none;">
